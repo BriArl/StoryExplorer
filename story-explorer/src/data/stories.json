@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "The Future of Climate Reporting",
+        "snippet": "NPR dives into how climate journalism is adapting to global urgency.",
+        "image": "https://placeholder.com/",
+        "topic": "Science",
+        "mood": "Informative",
+        "length": "Medium"
+    },
+    {
+        "id": 2,
+        "title": " A Story of Resilience in Appalachia",
+        "snippet": "An uplifting story of community stregth and innovation.",
+        "image": "https://placeholder.com/",
+        "topic": "Culture",
+        "mood": "Uplifting",
+        "length": "Short"
+    }
+]
