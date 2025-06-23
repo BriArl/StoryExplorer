@@ -1,23 +1,19 @@
+import React from 'react';
+import stories from "./data/stories.json";
+import StoryCard from './components/StoryCard';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Story Explorer</h1>
+      <div className="story-list">
+        {stories.map((story) => (
+          <StoryCard key={story.id} story={story} />
+        )
+      )}
+      </div>
     </div>
   );
 }
